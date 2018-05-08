@@ -9,21 +9,21 @@
 //   /!\ DO NOT MODIFY THIS FILE /!\
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// create-react-app is installed globally on people's computers. This means
+// jzkit-cli is installed globally on people's computers. This means
 // that it is extremely difficult to have them upgrade the version and
 // because there's only one global version installed, it is very prone to
 // breaking changes.
 //
-// The only job of create-react-app is to init the repository and then
-// forward all the commands to the local version of create-react-app.
+// The only job of jzkit-cli is to init the repository and then
+// forward all the commands to the local version of jzkit-cli.
 //
 // If you need to add a new command, please add it to the scripts/ folder.
 //
 // The only reason to modify this file is to add more warnings and
-// troubleshooting information for the `create-react-app` command.
+// troubleshooting information for the `jzkit-cli` command.
 //
 // Do not make breaking changes! We absolutely don't want to have to
-// tell people to update their global version of create-react-app.
+// tell people to update their global version of jzkit-cli.
 //
 // Also be careful with new language features.
 // This file must work on Node 6+.
@@ -49,8 +49,7 @@ const url = require('url');
 const hyperquest = require('hyperquest');
 const envinfo = require('envinfo');
 const os = require('os');
-const findMonorepo = require('jzkit-react-dev-utils/workspaceUtils')
-  .findMonorepo;
+const findMonorepo = require('react-dev-utils/workspaceUtils').findMonorepo;
 const packageJson = require('./package.json');
 
 // These files should be allowed to remain on a failed install,
@@ -74,7 +73,7 @@ const program = new commander.Command(packageJson.name)
   .option('--info', 'print environment debug info')
   .option(
     '--scripts-version <alternative-package>',
-    'use a non-standard version of react-scripts'
+    'use a non-standard version of jzkit-react-scripts'
   )
   .option('--use-npm')
   .allowUnknownOption()
@@ -88,22 +87,22 @@ const program = new commander.Command(packageJson.name)
     console.log(`      - a specific npm tag: ${chalk.green('@next')}`);
     console.log(
       `      - a custom fork published on npm: ${chalk.green(
-        'my-react-scripts'
+        'my-jzkit-react-scripts'
       )}`
     );
     console.log(
       `      - a local path relative to the current working directory: ${chalk.green(
-        'file:../my-react-scripts'
+        'file:../my-jzkit-react-scripts'
       )}`
     );
     console.log(
       `      - a .tgz archive: ${chalk.green(
-        'https://mysite.com/my-react-scripts-0.8.2.tgz'
+        'https://mysite.com/my-jzkit-react-scripts-0.8.2.tgz'
       )}`
     );
     console.log(
       `      - a .tar.gz archive: ${chalk.green(
-        'https://mysite.com/my-react-scripts-0.8.2.tar.gz'
+        'https://mysite.com/my-jzkit-react-scripts-0.8.2.tar.gz'
       )}`
     );
     console.log(
@@ -114,9 +113,7 @@ const program = new commander.Command(packageJson.name)
       `    If you have any problems, do not hesitate to file an issue:`
     );
     console.log(
-      `      ${chalk.cyan(
-        'https://github.com/facebook/create-react-app/issues/new'
-      )}`
+      `      ${chalk.cyan('https://github.com/facebook/jzkit-cli/issues/new')}`
     );
     console.log();
   })
@@ -131,7 +128,7 @@ if (program.info) {
         Binaries: ['Node', 'npm', 'Yarn'],
         Browsers: ['Chrome', 'Edge', 'Internet Explorer', 'Firefox', 'Safari'],
         npmPackages: ['react', 'react-dom', 'jzkit-react-scripts'],
-        npmGlobalPackages: ['create-react-app'],
+        npmGlobalPackages: ['jzkit-cli'],
       },
       {
         clipboard: true,
@@ -219,8 +216,8 @@ function createApp(name, verbose, version, useNpm, template) {
           `Please update to Node 6 or higher for a better, fully supported experience.\n`
       )
     );
-    // Fall back to latest supported react-scripts on Node 4
-    version = 'jzkit-react-scripts@0.0.x';
+    // Fall back to latest supported jzkit-react-scripts on Node 4
+    version = 'jzkit-react-scripts@0.9.x';
   }
 
   if (!useYarn) {
@@ -234,8 +231,8 @@ function createApp(name, verbose, version, useNpm, template) {
           )
         );
       }
-      // Fall back to latest supported react-scripts for npm 3
-      version = 'jzkit-react-scripts@0.0.x';
+      // Fall back to latest supported jzkit-react-scripts for npm 3
+      version = 'jzkit-react-scripts@0.9.x';
     }
   }
   run(root, appName, version, verbose, originalDirectory, template, useYarn);
@@ -268,7 +265,7 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
       [].push.apply(args, dependencies);
 
       // Explicitly set cwd() to work around issues like
-      // https://github.com/facebook/create-react-app/issues/3326.
+      // https://github.com/facebook/jzkit-cli/issues/3326.
       // Unfortunately we can only do this for Yarn because npm support for
       // equivalent --prefix flag doesn't help with this issue.
       // This is why for npm, we run checkThatNpmCanReadCwd() early instead.
@@ -356,7 +353,7 @@ function run(
       const init = require(scriptsPath);
       init(root, appName, verbose, originalDirectory, template);
 
-      if (version === 'jzkit-react-scripts@0.0.x') {
+      if (version === 'jzkit-react-scripts@0.9.x') {
         console.log(
           chalk.yellow(
             `\nNote: the project was boostrapped with an old unsupported version of tools.\n` +
@@ -638,7 +635,7 @@ function setCaretRangeForRuntimeDeps(packageName) {
 // Also, if project contains remnant error logs from a previous
 // installation, lets remove them now.
 // We also special case IJ-based products .idea because it integrates with CRA:
-// https://github.com/facebook/create-react-app/pull/368#issuecomment-243446094
+// https://github.com/facebook/jzkit-cli/pull/368#issuecomment-243446094
 function isSafeToCreateProjectIn(root, name) {
   const validFiles = [
     '.DS_Store',

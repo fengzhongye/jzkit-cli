@@ -110,7 +110,7 @@ npx jzkit-cli --scripts-version=@latest test-app-dist-tag
 cd test-app-dist-tag
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
+exists node_modules/jzkit-react-scripts
 checkDependencies
 
 # ******************************************************************************
@@ -122,8 +122,8 @@ npx jzkit-cli --scripts-version=1.0.17 test-app-version-number
 cd test-app-version-number
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+exists node_modules/jzkit-react-scripts
+grep '"version": "1.0.17"' node_modules/jzkit-react-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
@@ -135,9 +135,9 @@ npx jzkit-cli --use-npm --scripts-version=1.0.17 test-use-npm-flag
 cd test-use-npm-flag
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
+exists node_modules/jzkit-react-scripts
 [ ! -e "yarn.lock" ] && echo "yarn.lock correctly does not exist"
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+grep '"version": "1.0.17"' node_modules/jzkit-react-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
@@ -145,24 +145,24 @@ checkDependencies
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx jzkit-cli --scripts-version=https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.17.tgz test-app-tarball-url
+npx jzkit-cli --scripts-version=https://registry.npmjs.org/jzkit-react-scripts/-/jzkit-react-scripts-1.0.17.tgz test-app-tarball-url
 cd test-app-tarball-url
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+exists node_modules/jzkit-react-scripts
+grep '"version": "1.0.17"' node_modules/jzkit-react-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
-# Test --scripts-version with a custom fork of react-scripts
+# Test --scripts-version with a custom fork of jzkit-react-scripts
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx jzkit-cli --scripts-version=react-scripts-fork test-app-fork
+npx jzkit-cli --scripts-version=jzkit-react-scripts-fork test-app-fork
 cd test-app-fork
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts-fork
+exists node_modules/jzkit-react-scripts-fork
 
 # ******************************************************************************
 # Test project folder is deleted on failing package installation
@@ -192,16 +192,16 @@ if [ "$(ls -1 ./test-app-should-remain | wc -l | tr -d '[:space:]')" != "2" ]; t
 fi
 
 # ******************************************************************************
-# Test --scripts-version with a scoped fork tgz of react-scripts
+# Test --scripts-version with a scoped fork tgz of jzkit-react-scripts
 # ******************************************************************************
 
 cd $temp_app_path
-curl "https://registry.npmjs.org/@enoah_netzach/react-scripts/-/react-scripts-0.9.0.tgz" -o enoah-scripts-0.9.0.tgz
+curl "https://registry.npmjs.org/@enoah_netzach/jzkit-react-scripts/-/jzkit-react-scripts-0.9.0.tgz" -o enoah-scripts-0.9.0.tgz
 npx jzkit-cli --scripts-version=$temp_app_path/enoah-scripts-0.9.0.tgz test-app-scoped-fork-tgz
 cd test-app-scoped-fork-tgz
 
 # Check corresponding scripts version is installed.
-exists node_modules/@enoah_netzach/react-scripts
+exists node_modules/@enoah_netzach/jzkit-react-scripts
 
 # ******************************************************************************
 # Test nested folder path as the project name

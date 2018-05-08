@@ -1,10 +1,10 @@
 {
-  "lerna": "2.11.0",
+  "lerna": "2.6.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent",
   "changelog": {
-    "repo": "fengzhongye/jzkit-cli",
+    "repo": "facebook/jzkit-cli",
     "labels": {
       "tag: new feature": ":rocket: New Feature",
       "tag: breaking change": ":boom: Breaking Change",

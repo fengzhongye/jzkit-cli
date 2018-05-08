@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 # ******************************************************************************
-# This releases an update to the `react-scripts` package.
+# This releases an update to the `jzkit-react-scripts` package.
 # Don't use `npm publish` for it.
 # Read the release instructions:
 # https://github.com/facebook/jzkit-cli/blob/master/CONTRIBUTING.md#cutting-a-release
@@ -32,8 +32,8 @@ if [ -n "$(git status --porcelain)" ]; then
 fi
 
 # Compile
-# cd packages/react-error-overlay/
-# npm run build:prod
-# cd ../..
+cd packages/react-error-overlay/
+npm run build:prod
+cd ../..
 # Go!
 ./node_modules/.bin/lerna publish --independent "$@"

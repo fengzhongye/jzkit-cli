@@ -23,7 +23,7 @@ original_yarn_registry_url=`yarn config get registry`
 function cleanup {
   echo 'Cleaning up.'
   unset BROWSERSLIST
-  ps -ef | grep 'react-scripts' | grep -v grep | awk '{print $2}' | xargs kill -9
+  ps -ef | grep 'jzkit-react-scripts' | grep -v grep | awk '{print $2}' | xargs kill -9
   cd "$root_path"
   # TODO: fix "Device or resource busy" and remove ``|| $CI`
   rm -rf "$temp_app_path" "$temp_module_path" || $CI
@@ -100,14 +100,14 @@ git clean -df
 
 # Install the app in a temporary location
 cd $temp_app_path
-npx jzkit-cli --internal-testing-template="$root_path"/packages/react-scripts/fixtures/kitchensink test-kitchensink
+npx jzkit-cli --internal-testing-template="$root_path"/packages/jzkit-react-scripts/fixtures/kitchensink test-kitchensink
 
 # Install the test module
 cd "$temp_module_path"
 yarn add test-integrity@^2.0.1
 
 # ******************************************************************************
-# Now that we used jzkit-cli to create an app depending on react-scripts,
+# Now that we used jzkit-cli to create an app depending on jzkit-react-scripts,
 # let's make sure all npm scripts are in the working state.
 # ******************************************************************************
 

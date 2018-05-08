@@ -23,7 +23,7 @@ function cleanup {
   echo 'Cleaning up.'
   cd "$root_path"
   # Uncomment when snapshot testing is enabled by default:
-  # rm ./packages/react-scripts/template/src/__snapshots__/App.test.js.snap
+  # rm ./packages/jzkit-react-scripts/template/src/__snapshots__/App.test.js.snap
   rm -rf "$temp_app_path"
   npm set registry "$original_npm_registry_url"
   yarn config set registry "$original_yarn_registry_url"
@@ -106,9 +106,9 @@ function verifyBuild {
 # ******************************************************************************
 # Set up yarn workspace monorepo
 pushd "$temp_app_path"
-cp -r "$root_path/packages/react-scripts/fixtures/monorepos/yarn-ws" .
+cp -r "$root_path/packages/jzkit-react-scripts/fixtures/monorepos/yarn-ws" .
 cd "yarn-ws"
-cp -r "$root_path/packages/react-scripts/fixtures/monorepos/packages" .
+cp -r "$root_path/packages/jzkit-react-scripts/fixtures/monorepos/packages" .
 yarn
 
 # Test cra-app1
@@ -126,7 +126,7 @@ verifyTest
 # ******************************************************************************
 # Test jzkit-cli inside workspace
 # ******************************************************************************
-# npx jzkit-cli --internal-testing-template="$root_path"/packages/react-scripts/fixtures/yarn-ws/ws/cra-app1 cra-app2
+# npx jzkit-cli --internal-testing-template="$root_path"/packages/jzkit-react-scripts/fixtures/yarn-ws/ws/cra-app1 cra-app2
 # -- above needs https://github.com/facebookincubator/jzkit-cli/pull/3435 to user jzkit-cli
 popd
 

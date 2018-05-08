@@ -8,13 +8,13 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "jzkit-react-scripts": "latest"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "jzkit-react-scripts start",
+    "build": "jzkit-react-scripts build",
+    "test": "jzkit-react-scripts test --env=jsdom",
+    "eject": "jzkit-react-scripts eject"
   },
   "browserslist": {
     "development": [

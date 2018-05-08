@@ -57,9 +57,9 @@ switch (script) {
   }
   default:
     console.log('Unknown script "' + script + '".');
-    console.log('Perhaps you need to update react-scripts?');
+    console.log('Perhaps you need to update jzkit-react-scripts?');
     console.log(
-      'See: https://github.com/facebook/jzkit-cli/blob/master/packages/react-scripts/template/README.md#updating-to-new-releases'
+      'See: https://github.com/facebook/jzkit-cli/blob/master/packages/jzkit-react-scripts/template/README.md#updating-to-new-releases'
     );
     break;
 }

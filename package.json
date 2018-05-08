@@ -9,7 +9,7 @@
     "jzkit-cli": "node tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
-    "postinstall": "yarn build:prod",
+    "postinstall": "cd packages/react-error-overlay/ && yarn build:prod",
     "publish": "tasks/publish.sh",
     "start": "cd packages/jzkit-react-scripts && node bin/jzkit-react-scripts.js start",
     "screencast": "node ./tasks/screencast.js",
@@ -29,8 +29,7 @@
     "multimatch": "^2.1.0",
     "prettier": "1.6.1",
     "svg-term-cli": "^2.0.3",
-    "tempy": "^0.2.1",
-    "react-error-overlay": "4.0.0" 
+    "tempy": "^0.2.1"
   },
   "lint-staged": {
     "*.js": [
