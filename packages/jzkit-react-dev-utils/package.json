@@ -1,6 +1,6 @@
 {
   "name": "jzkit-react-dev-utils",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "Webpack utilities used by Create React App",
   "repository": "fengzhongye/jzkit-cli",
   "license": "MIT",
@@ -52,7 +52,7 @@
     "gzip-size": "4.1.0",
     "inquirer": "5.0.0",
     "is-root": "1.0.0",
-    "jzkit-react-error-overlay": "^4.0.2",
+    "jzkit-react-error-overlay": "^4.0.3",
     "opn": "5.2.0",
     "pkg-up": "2.0.0",
     "recursive-readdir": "2.2.1",

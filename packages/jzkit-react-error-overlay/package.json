@@ -1,6 +1,6 @@
 {
   "name": "jzkit-react-error-overlay",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "An overlay for displaying stack frames.",
   "main": "lib/index.js",
   "scripts": {
