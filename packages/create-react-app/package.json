@@ -1,24 +1,24 @@
 {
-  "name": "create-react-app",
+  "name": "jzkit-cli",
   "version": "1.5.1",
   "keywords": [
     "react"
   ],
   "description": "Create React apps with no build configuration.",
-  "repository": "facebook/create-react-app",
+  "repository": "fengzhongye/jzkit-cli",
   "license": "MIT",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/fengzhongye/jzkit-cli/issues"
   },
   "files": [
     "index.js",
     "createReactApp.js"
   ],
   "bin": {
-    "create-react-app": "./index.js"
+    "jzkit-cli": "./index.js"
   },
   "dependencies": {
     "chalk": "^1.1.3",

@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": "facebook/create-react-app",
+  "repository": "fengzhongye/jzkit-cli",
   "keywords": [
     "eslint",
     "globals"
