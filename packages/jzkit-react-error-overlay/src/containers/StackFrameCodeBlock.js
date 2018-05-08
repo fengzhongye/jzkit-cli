@@ -25,7 +25,7 @@ type StackFrameCodeBlockPropsType = {|
 |};
 
 // Exact type workaround for spread operator.
-// See: https://github.com/facebook/flow/issues/2405
+// See: https://github.com/fengzhongye/flow/issues/2405
 type Exact<T> = $Shape<T>;
 
 function StackFrameCodeBlock(props: Exact<StackFrameCodeBlockPropsType>) {

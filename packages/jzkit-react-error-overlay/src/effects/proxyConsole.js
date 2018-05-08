@@ -20,7 +20,7 @@ export type { ReactFrame };
 // https://gist.github.com/sebmarkbage/bdefa100f19345229d526d0fdd22830f
 // We're implementing just enough to get the invalid element type warnings
 // to display the component stack in React 15.6+:
-// https://github.com/facebook/react/pull/9679
+// https://github.com/fengzhongye/react/pull/9679
 /// TODO: a more comprehensive implementation.
 
 const registerReactStack = () => {

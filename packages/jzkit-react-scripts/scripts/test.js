@@ -58,7 +58,7 @@ argv.push(
   )
 );
 
-// This is a very dirty workaround for https://github.com/facebook/jest/issues/5913.
+// This is a very dirty workaround for https://github.com/fengzhongye/jest/issues/5913.
 // We're trying to resolve the environment ourselves because Jest does it incorrectly.
 // TODO: remove this (and the `resolve` dependency) as soon as it's fixed in Jest.
 const resolve = require('resolve');

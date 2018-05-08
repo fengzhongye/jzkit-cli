@@ -1,6 +1,6 @@
-# `react-error-overlay`
+# `jzkit-react-error-overlay`
 
-`react-error-overlay` is an overlay which displays when there is a runtime error.
+`jzkit-react-error-overlay` is an overlay which displays when there is a runtime error.
 
 ## Development
 

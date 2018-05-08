@@ -8,7 +8,7 @@
 # This releases an update to the `jzkit-react-scripts` package.
 # Don't use `npm publish` for it.
 # Read the release instructions:
-# https://github.com/facebook/jzkit-cli/blob/master/CONTRIBUTING.md#cutting-a-release
+# https://github.com/fengzhongye/jzkit-cli/blob/master/CONTRIBUTING.md#cutting-a-release
 # ******************************************************************************
 
 # Start in tasks/ even if run from root directory
@@ -32,7 +32,7 @@ if [ -n "$(git status --porcelain)" ]; then
 fi
 
 # Compile
-cd packages/react-error-overlay/
+cd packages/jzkit-react-error-overlay/
 npm run build:prod
 cd ../..
 # Go!

@@ -35,7 +35,7 @@ module.exports = {
               options: {
                 babelrc: false,
                 compact: false,
-                presets: ['babel-preset-react-app/dependencies'],
+                presets: ['jzkit-babel-preset-react-app/dependencies'],
               },
             },
           },

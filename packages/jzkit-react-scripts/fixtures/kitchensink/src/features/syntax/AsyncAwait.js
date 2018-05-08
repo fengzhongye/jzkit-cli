@@ -18,7 +18,7 @@ async function load() {
 }
 
 /* eslint-disable */
-// Regression test for https://github.com/facebook/jzkit-cli/issues/3055
+// Regression test for https://github.com/fengzhongye/jzkit-cli/issues/3055
 const x = async (
   /* prettier-ignore */
   y: void
