@@ -2,7 +2,7 @@
 
 #### :bug: Bug Fix
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#4250](https://github.com/facebook/jzkit-cli/pull/4250) Upgrade `detect-port-alt` to fix [#4189](https://github.com/facebook/jzkit-cli/issues/4189). ([@Timer](https://github.com/Timer))
 
@@ -14,20 +14,20 @@
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.1.4
+npm install --save --save-exact jzkit-react-scripts@1.1.4
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.1.4
+yarn add --exact jzkit-react-scripts@1.1.4
 ```
 
 ## 1.1.3 (April 3, 2018)
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#4247](https://github.com/facebook/jzkit-cli/pull/4247) Fix `environment.dispose is not a function` error caused by a Jest bug. ([@gaearon](https://github.com/gaearon))
 
@@ -39,26 +39,26 @@ yarn add --exact react-scripts@1.1.4
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.1.3
+npm install --save --save-exact jzkit-react-scripts@1.1.3
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.1.3
+yarn add --exact jzkit-react-scripts@1.1.3
 ```
 
 ## 1.1.2 (April 3, 2018)
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#4085](https://github.com/facebook/jzkit-cli/pull/4085) Resolve `.js` before `.mjs` files to unbreak dependencies with native ESM support. ([@leebyron](https://github.com/leebyron))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#4197](https://github.com/facebook/jzkit-cli/pull/4197) Add troubleshooting for Github Pages. ([@xnt](https://github.com/xnt))
 
@@ -71,27 +71,27 @@ yarn add --exact react-scripts@1.1.3
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.1.2
+npm install --save --save-exact jzkit-react-scripts@1.1.2
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.1.2
+yarn add --exact jzkit-react-scripts@1.1.2
 ```
 
 ## 1.1.1 (February 2, 2018)
 
 #### :bug: Bug Fix
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#4000](https://github.com/facebook/jzkit-cli/pull/4000) Fix escaping `$` in environment variables. ([@iansu](https://github.com/iansu))
 
 #### :nail_care: Enhancement
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#4006](https://github.com/facebook/jzkit-cli/pull/4006) Add Node 9 compatibility for `fsevents`. ([@gaearon](https://github.com/gaearon))
 
 #### :memo: Documentation
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#3971](https://github.com/facebook/jzkit-cli/pull/3971) Update instructions for continuous delivery with Netlify. ([@hubgit](https://github.com/hubgit))
   * [#3894](https://github.com/facebook/jzkit-cli/pull/3894) Include `{json,css}` files in prettier command. ([@reyronald](https://github.com/reyronald))
 
@@ -111,24 +111,24 @@ yarn add --exact react-scripts@1.1.2
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.1.1
+npm install --save --save-exact jzkit-react-scripts@1.1.1
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.1.1
+yarn add --exact jzkit-react-scripts@1.1.1
 ```
 
 ## 1.1.0 (January 15, 2018)
 
 #### :rocket: New Feature
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3387](https://github.com/facebook/jzkit-cli/pull/3387) Add support for variable expansion in `.env` files. ([@moos](https://github.com/moos))
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
 
   * [#3474](https://github.com/facebook/jzkit-cli/pull/3474) Allow the error overlay to be unregistered. ([@Timer](https://github.com/Timer))
   
@@ -142,11 +142,11 @@ yarn add --exact react-scripts@1.1.1
 
 #### :bug: Bug Fix
 
-* `babel-preset-react-app`, `react-scripts`
+* `jzkit-babel-preset-react-app`, `jzkit-react-scripts`
 
   * [#3788](https://github.com/facebook/jzkit-cli/pull/3788) Fix object destructuring inside an array on Node 6. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3784](https://github.com/facebook/jzkit-cli/pull/3784) Detach browser process from the shell on Linux. ([@gaearon](https://github.com/gaearon))
   * [#3726](https://github.com/facebook/jzkit-cli/pull/3726) Use proxy for all request methods other than `GET`. ([@doshisid](https://github.com/doshisid))
@@ -158,14 +158,14 @@ yarn add --exact react-scripts@1.1.1
 
   * [#3320](https://github.com/facebook/jzkit-cli/pull/3320) Fix offline installation to respect proxy from `.npmrc`. ([@mdogadailo](https://github.com/mdogadailo))
   
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3537](https://github.com/facebook/jzkit-cli/pull/3537) Add `mjs` and `jsx` filename extensions to `file-loader` exclude pattern. ([@iansu](https://github.com/iansu))
   * [#3511](https://github.com/facebook/jzkit-cli/pull/3511) Unmount the component in the default generated test. ([@gaearon](https://github.com/gaearon))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3730](https://github.com/facebook/jzkit-cli/pull/3730) Print when `HOST` environment variable is set. ([@iansu](https://github.com/iansu))
   * [#3455](https://github.com/facebook/jzkit-cli/pull/3455) Add a localhost-only log message pointing folks to the PWA docs. ([@jeffposnick](https://github.com/jeffposnick))
@@ -175,22 +175,22 @@ yarn add --exact react-scripts@1.1.1
 
   * [#3740](https://github.com/facebook/jzkit-cli/pull/3740) Allow more non-conflicting files in initial project directory. ([@GreenGremlin](https://github.com/GreenGremlin))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3104](https://github.com/facebook/jzkit-cli/pull/3104) Add link to deployment docs after build. ([@viankakrisna](https://github.com/viankakrisna))
   * [#3652](https://github.com/facebook/jzkit-cli/pull/3652) Add `code-insiders` to the editor list. ([@shrynx](https://github.com/shrynx))
   * [#3700](https://github.com/facebook/jzkit-cli/pull/3700) Add editor support for Sublime Dev & VSCode Insiders. ([@yyx990803](https://github.com/yyx990803))
   * [#3545](https://github.com/facebook/jzkit-cli/pull/3545) Autodetect MacVim editor. ([@gnapse](https://github.com/gnapse))
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
 
   * [#3465](https://github.com/facebook/jzkit-cli/pull/3465) Open editor to exact column from build error overlay. ([@tharakawj](https://github.com/tharakawj))
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#3721](https://github.com/facebook/jzkit-cli/pull/3721) Support setting `none` in `REACT_EDITOR` environment variable. ([@raerpo](https://github.com/raerpo))
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
 
   * [#3716](https://github.com/facebook/jzkit-cli/pull/3716) Relax `no-cond-assign` rule. ([@gaearon](https://github.com/gaearon))
 
@@ -203,7 +203,7 @@ yarn add --exact react-scripts@1.1.1
   * [#3656](https://github.com/facebook/jzkit-cli/pull/3656) Better documentation for setupTests.js when ejecting. ([@dannycalleri](https://github.com/dannycalleri))
   * [#1791](https://github.com/facebook/jzkit-cli/pull/1791) Add link for automatic deployment to azure. ([@ulrikstrid](https://github.com/ulrikstrid))
   * [#3717](https://github.com/facebook/jzkit-cli/pull/3717) Update README.md. ([@maecapozzi](https://github.com/maecapozzi))
-  * [#3710](https://github.com/facebook/jzkit-cli/pull/3710) Link to an explanation for forking react-scripts. ([@gaearon](https://github.com/gaearon))
+  * [#3710](https://github.com/facebook/jzkit-cli/pull/3710) Link to an explanation for forking jzkit-react-scripts. ([@gaearon](https://github.com/gaearon))
   * [#3709](https://github.com/facebook/jzkit-cli/pull/3709) Document adding a router. ([@gaearon](https://github.com/gaearon))
   * [#3670](https://github.com/facebook/jzkit-cli/pull/3670) Fix typo in the User Guide. ([@qbahers](https://github.com/qbahers))
   * [#3645](https://github.com/facebook/jzkit-cli/pull/3645) Update README.md. ([@elie222](https://github.com/elie222))
@@ -222,7 +222,7 @@ yarn add --exact react-scripts@1.1.1
   * [#2841](https://github.com/facebook/jzkit-cli/pull/2841) Documentation to help windows contributors. ([@Dubes](https://github.com/Dubes))
   * [#3489](https://github.com/facebook/jzkit-cli/pull/3489) Add link to nvm-windows. ([@davidgilbertson](https://github.com/davidgilbertson))
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
 
   * [#3460](https://github.com/facebook/jzkit-cli/pull/3460) Fix broken link to `href-no-hash` eslint rule. ([@hazolsky](https://github.com/hazolsky))
 
@@ -241,7 +241,7 @@ yarn add --exact react-scripts@1.1.1
   * [#3414](https://github.com/facebook/jzkit-cli/pull/3414) Export `dismissRuntimeErrors` function. ([@skidding](https://github.com/skidding))
   * [#3036](https://github.com/facebook/jzkit-cli/pull/3036) Cleaning up `printHostingInstructions` a bit. ([@GreenGremlin](https://github.com/GreenGremlin))
   * [#3514](https://github.com/facebook/jzkit-cli/pull/3514) Fix `FileSizeReporter` for multi build Webpack setups. ([@iiska](https://github.com/iiska))
-  * [#3362](https://github.com/facebook/jzkit-cli/pull/3362) Refactor extra watch options regex to `react-dev-utils`. ([@xjlim](https://github.com/xjlim))
+  * [#3362](https://github.com/facebook/jzkit-cli/pull/3362) Refactor extra watch options regex to `jzkit-react-dev-utils`. ([@xjlim](https://github.com/xjlim))
 
 #### Committers: 47
 
@@ -298,26 +298,26 @@ yarn add --exact react-scripts@1.1.1
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.1.0
+npm install --save --save-exact jzkit-react-scripts@1.1.0
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.1.0
+yarn add --exact jzkit-react-scripts@1.1.0
 ```
 
 ## 1.0.17 (November 3, 2017)
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3401](https://github.com/facebook/jzkit-cli/pull/3401) Stop using a deprecated option. ([@gaearon](https://github.com/gaearon))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3399](https://github.com/facebook/jzkit-cli/pull/3399) Add link to VS Code troubleshooting guide. ([@auchenberg](https://github.com/auchenberg))
   * [#3400](https://github.com/facebook/jzkit-cli/pull/3400) Update VS Code debug configuration. ([@auchenberg](https://github.com/auchenberg))
@@ -333,24 +333,24 @@ yarn add --exact react-scripts@1.1.0
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.17
+npm install --save --save-exact jzkit-react-scripts@1.0.17
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.17
+yarn add --exact jzkit-react-scripts@1.0.17
 ```
 
 ## 1.0.16 (October 31, 2017) 🎃
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3374](https://github.com/facebook/jzkit-cli/pull/3374) Set correct image type and sizes in `manifest.json`. ([@piotr-cz](https://github.com/piotr-cz))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3368](https://github.com/facebook/jzkit-cli/pull/3368) Fix a crash in development mode in older browsers. ([@felthy](https://github.com/felthy))
 
@@ -364,39 +364,39 @@ yarn add --exact react-scripts@1.0.17
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.16
+npm install --save --save-exact jzkit-react-scripts@1.0.16
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.16
+yarn add --exact jzkit-react-scripts@1.0.16
 ```
 
 ## 1.0.15 (October 30, 2017)
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3287](https://github.com/facebook/jzkit-cli/pull/3287) Fix favicon sizes value in the project manifest. ([@ryansully](https://github.com/ryansully))
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#3230](https://github.com/facebook/jzkit-cli/pull/3230) Fix watching for changes in `src/node_modules`. ([@xjlim](https://github.com/xjlim))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3239](https://github.com/facebook/jzkit-cli/pull/3239) Allow importing `.mjs` files. ([@Timer](https://github.com/Timer))
   * [#3340](https://github.com/facebook/jzkit-cli/pull/3340) Polyfill `requestAnimationFrame` in test environment. ([@gaearon](https://github.com/gaearon))
 
-* `babel-preset-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `jzkit-babel-preset-react-app`, `jzkit-react-dev-utils`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
 
   * [#3342](https://github.com/facebook/jzkit-cli/pull/3342) Bump dependencies. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
 
   * [#3100](https://github.com/facebook/jzkit-cli/pull/3100) Add click-to-open support for build errors. ([@tharakawj](https://github.com/tharakawj))
 
@@ -430,15 +430,15 @@ yarn add --exact react-scripts@1.0.16
 
   * [#3345](https://github.com/facebook/jzkit-cli/pull/3345) Stop using `npm link` in tests. ([@Timer](https://github.com/Timer))
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
 
   * [#3122](https://github.com/facebook/jzkit-cli/pull/3122) Fix for add .gitattributes file #3080. ([@ijajmulani](https://github.com/ijajmulani))
   * [#3267](https://github.com/facebook/jzkit-cli/pull/3267) Use production React version for bundled overlay. ([@Timer](https://github.com/Timer))
-  * [#3264](https://github.com/facebook/jzkit-cli/pull/3264) Add warning when using `react-error-overlay` in production. ([@Timer](https://github.com/Timer))
-  * [#3263](https://github.com/facebook/jzkit-cli/pull/3263) `react-error-overlay` has no dependencies now (it's bundled). ([@Timer](https://github.com/Timer))
+  * [#3264](https://github.com/facebook/jzkit-cli/pull/3264) Add warning when using `jzkit-react-error-overlay` in production. ([@Timer](https://github.com/Timer))
+  * [#3263](https://github.com/facebook/jzkit-cli/pull/3263) `jzkit-react-error-overlay` has no dependencies now (it's bundled). ([@Timer](https://github.com/Timer))
   * [#3142](https://github.com/facebook/jzkit-cli/pull/3142) Make error overlay run in the context of the iframe. ([@tharakawj](https://github.com/tharakawj))
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3150](https://github.com/facebook/jzkit-cli/pull/3150) Remove an useless negation in `registerServiceWorker.js`. ([@dunglas](https://github.com/dunglas))
   * [#3158](https://github.com/facebook/jzkit-cli/pull/3158) Remove `output.path` from dev webpack config. ([@nikolas](https://github.com/nikolas))
@@ -480,30 +480,30 @@ yarn add --exact react-scripts@1.0.16
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.15
+npm install --save --save-exact jzkit-react-scripts@1.0.15
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.15
+yarn add --exact jzkit-react-scripts@1.0.15
 ```
 
 ## 1.0.14 (September 26, 2017)
 
 #### :bug: Bug Fix
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3098](https://github.com/facebook/jzkit-cli/pull/3098) Always reload the page on next compile after a runtime error. ([@Timer](https://github.com/Timer))
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
 
   * [#3079](https://github.com/facebook/jzkit-cli/pull/3079) Fix code context on Windows. ([@Timer](https://github.com/Timer))
 
 #### :nail_care: Enhancement
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3077](https://github.com/facebook/jzkit-cli/pull/3077) Auto-detect running editor on Linux for error overlay. ([@gulderov](https://github.com/gulderov))
 
@@ -515,31 +515,31 @@ yarn add --exact react-scripts@1.0.15
 
   * [#3163](https://github.com/facebook/jzkit-cli/pull/3163) Add link to active CSS modules discussion. ([@NeekSandhu](https://github.com/NeekSandhu))
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2908](https://github.com/facebook/jzkit-cli/pull/2908) Note that class fields have progressed to stage 3. ([@rickbeerendonk](https://github.com/rickbeerendonk))
 
   * [#3160](https://github.com/facebook/jzkit-cli/pull/3160) Update unclear wording in webpack configuration (file loader section). ([@kristiehoward](https://github.com/kristiehoward))
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
 
   * [#3072](https://github.com/facebook/jzkit-cli/pull/3072) Update eslint versions for install instructions. ([@jdcrensh](https://github.com/jdcrensh))
 
 #### :house: Internal
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3157](https://github.com/facebook/jzkit-cli/pull/3157) Update `webpack-dev-server` to `2.8.2`. ([@nikolas](https://github.com/nikolas))
 
   * [#2989](https://github.com/facebook/jzkit-cli/pull/2989) Update install template to match accessibility guidelines. ([@davidleger95](https://github.com/davidleger95))
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
 
-  * [#3065](https://github.com/facebook/jzkit-cli/pull/3065) Updated `react-error-overlay` to latest Flow (`0.54.0`). ([@duvet86](https://github.com/duvet86))
+  * [#3065](https://github.com/facebook/jzkit-cli/pull/3065) Updated `jzkit-react-error-overlay` to latest Flow (`0.54.0`). ([@duvet86](https://github.com/duvet86))
 
   * [#3102](https://github.com/facebook/jzkit-cli/pull/3102) Clean target directory before compiling overlay. ([@Timer](https://github.com/Timer))
 
-* `jzkit-cli`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `jzkit-cli`, `jzkit-react-dev-utils`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
 
   * [#3058](https://github.com/facebook/jzkit-cli/pull/3058) Re-run prettier for all files and pin the version. ([@viankakrisna](https://github.com/viankakrisna))
 
@@ -565,40 +565,40 @@ yarn add --exact react-scripts@1.0.15
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.14
+npm install --save --save-exact jzkit-react-scripts@1.0.14
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.14
+yarn add --exact jzkit-react-scripts@1.0.14
 ```
 
 ## 1.0.13 (September 2, 2017)
 
 #### :bug: Bug Fix
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
 
   * [#3051](https://github.com/facebook/jzkit-cli/pull/3051) Fix case-sensitivity issue with upgrading the package version. ([@tharakawj](https://github.com/tharakawj))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#3049](https://github.com/facebook/jzkit-cli/pull/3049) Print filesize difference for chunks. ([@esturcke](https://github.com/esturcke))
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3046](https://github.com/facebook/jzkit-cli/pull/3046) Fix crash in development mode on IE11. ([@tharakawj](https://github.com/tharakawj))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#3033](https://github.com/facebook/jzkit-cli/pull/3033) Add an empty mock for `child_process` to let some libraries compile. ([@McFlurriez](https://github.com/McFlurriez))
 
 #### :house: Internal
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
 
   * [#3028](https://github.com/facebook/jzkit-cli/pull/3028) Make error overlay filename configurable. ([@jaredpalmer](https://github.com/jaredpalmer))
 
@@ -614,52 +614,52 @@ yarn add --exact react-scripts@1.0.14
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.13
+npm install --save --save-exact jzkit-react-scripts@1.0.13
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.13
+yarn add --exact jzkit-react-scripts@1.0.13
 ```
 
 ## 1.0.12 (August 28, 2017)
 
 #### :bug: Bug Fix
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
   * [#3012](https://github.com/facebook/jzkit-cli/pull/3012) Fix module function name in error overlay. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2938](https://github.com/facebook/jzkit-cli/pull/2938) Remove superfluous lodash usage. ([@Timer](https://github.com/Timer))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2917](https://github.com/facebook/jzkit-cli/pull/2917) Optimize the size of default favicon. ([@sylvainbaronnet](https://github.com/sylvainbaronnet))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2986](https://github.com/facebook/jzkit-cli/pull/2986) Docs: debugging in WebStorm. ([@prigara](https://github.com/prigara))
   * [#2948](https://github.com/facebook/jzkit-cli/pull/2948) Remove Modulus from user guide. ([@Zertz](https://github.com/Zertz))
   * [#2927](https://github.com/facebook/jzkit-cli/pull/2927) Update README.md. ([@tbassetto](https://github.com/tbassetto))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2942](https://github.com/facebook/jzkit-cli/pull/2942) Fix docs for `printFileSizesAfterBuild`. ([@Kerumen](https://github.com/Kerumen))
 
 #### :house: Internal
 
-* `react-error-overlay`, `react-scripts`
+* `jzkit-react-error-overlay`, `jzkit-react-scripts`
 
   * [#2991](https://github.com/facebook/jzkit-cli/pull/2991) Update `babel-runtime` dependency ([@christophehurpeau](https://github.com/christophehurpeau))
 
-* `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
 
-  * [#2515](https://github.com/facebook/jzkit-cli/pull/2515) Convert `react-error-overlay` to React ([@tharakawj](https://github.com/tharakawj))
+  * [#2515](https://github.com/facebook/jzkit-cli/pull/2515) Convert `jzkit-react-error-overlay` to React ([@tharakawj](https://github.com/tharakawj))
 
 #### Committers: 9
 
@@ -678,13 +678,13 @@ yarn add --exact react-scripts@1.0.13
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.12
+npm install --save --save-exact jzkit-react-scripts@1.0.12
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.12
+yarn add --exact jzkit-react-scripts@1.0.12
 ```
 
 **Note:** there’s a [known issue](https://github.com/facebook/jzkit-cli/issues/3041) that might cause the project to not compile after upgrading. In this case, migrate straight to `1.0.13` which doesn’t have this issue.
@@ -698,39 +698,39 @@ yarn add --exact react-scripts@1.0.12
     When a Yarn proxy is set, we will check its connectivity if we cannot reach Yarn's registry. This is often the case when DNS lookups must be made through the proxy.
 
   * [#2853](https://github.com/facebook/jzkit-cli/pull/2853) Allow use of scoped packages with a pinned version. ([@wileybenet](https://github.com/wileybenet))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2796](https://github.com/facebook/jzkit-cli/pull/2796) Properly escape HTML tags in error overlay. ([@ccloli](https://github.com/ccloli))
 
     Elements printed in their entirety would sometimes render as HTML. This should no longer happen and should properly render as text.
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#2834](https://github.com/facebook/jzkit-cli/pull/2834) Make `formatWebpackMessages` return all messages ([@onigoetz](https://github.com/onigoetz))
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2806](https://github.com/facebook/jzkit-cli/pull/2806) Fix SockJS version compatibility. ([@christianbundy](https://github.com/christianbundy))
   * [#2738](https://github.com/facebook/jzkit-cli/pull/2738) Fix Jest `node` file resolution. ([@mostafah](https://github.com/mostafah))
 
 #### :nail_care: Enhancement
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2818](https://github.com/facebook/jzkit-cli/pull/2818) Allow sourcemaps to be disabled. ([@viankakrisna](https://github.com/viankakrisna))
 
     As applications grow more complex, it is possible webpack may run out of memory while generating source maps. They may now be disabled by setting `GENERATE_SOURCEMAP=false`.
 
-  * [#2913](https://github.com/facebook/jzkit-cli/pull/2913) Allow flags to be passed to node when running `react-scripts`. ([@koistya](https://github.com/koistya))
+  * [#2913](https://github.com/facebook/jzkit-cli/pull/2913) Allow flags to be passed to node when running `jzkit-react-scripts`. ([@koistya](https://github.com/koistya))
   * [#2574](https://github.com/facebook/jzkit-cli/pull/2574) Upgrade to `webpack@3`. ([@themre](https://github.com/themre))
   * [#2747](https://github.com/facebook/jzkit-cli/pull/2747) Simplify webpack configuration using `Rule.oneOf`. ([@Furizaa](https://github.com/Furizaa))
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#2468](https://github.com/facebook/jzkit-cli/pull/2468) Allow importing `package.json`. ([@iamdoron](https://github.com/iamdoron))
   * [#2650](https://github.com/facebook/jzkit-cli/pull/2650) Make UglifyJS error friendlier. ([@viankakrisna](https://github.com/viankakrisna))
 * `jzkit-cli`
   * [#2785](https://github.com/facebook/jzkit-cli/pull/2785) Change error wording and list conflicting files when initializing app. ([@OwenFlood](https://github.com/OwenFlood))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2761](https://github.com/facebook/jzkit-cli/pull/2761) Don't prompt to install serve if already installed. ([@OwenFlood](https://github.com/OwenFlood))
   * [#2754](https://github.com/facebook/jzkit-cli/pull/2754) Auto-detect JetBrains IDEs. ([@danrr](https://github.com/danrr))
   * [#2740](https://github.com/facebook/jzkit-cli/pull/2740) Support PyCharm in `launchEditor`. ([@danrr](https://github.com/danrr))
   * [#2723](https://github.com/facebook/jzkit-cli/pull/2723) Reorder vim arguments in `launchEditor` so `--remote` works. ([@trygveaa](https://github.com/trygveaa))
-* `eslint-config-react-app`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-scripts`
   * [#2735](https://github.com/facebook/jzkit-cli/pull/2735) Upgrade to `eslint@4`. ([@trungdq88](https://github.com/trungdq88))
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#2701](https://github.com/facebook/jzkit-cli/pull/2701) Set `allowTaggedTemplates` to true (eslint). ([@denkristoffer](https://github.com/denkristoffer))
 
 #### :memo: Documentation
@@ -738,24 +738,24 @@ yarn add --exact react-scripts@1.0.12
   * [#2728](https://github.com/facebook/jzkit-cli/pull/2728) Add Electrode to alternatives. ([@animesh10](https://github.com/animesh10))
   * [#2788](https://github.com/facebook/jzkit-cli/pull/2788) Update link for motion. ([@viankakrisna](https://github.com/viankakrisna))
   * [#2697](https://github.com/facebook/jzkit-cli/pull/2697) Fix env list ordering. ([@alexeyraspopov](https://github.com/alexeyraspopov))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2798](https://github.com/facebook/jzkit-cli/pull/2798) Update note about `webpackHotDevClient` support. ([@ForbesLindesay](https://github.com/ForbesLindesay))
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2822](https://github.com/facebook/jzkit-cli/pull/2822) Add explicit "Opting Out of Caching" header. ([@gaearon](https://github.com/gaearon))
   * [#2725](https://github.com/facebook/jzkit-cli/pull/2725) Fixed typo. ([@zeel](https://github.com/zeel))
   * [#2668](https://github.com/facebook/jzkit-cli/pull/2668) Document `basename` feature in `react-router`. ([@viankakrisna](https://github.com/viankakrisna))
   * [#2719](https://github.com/facebook/jzkit-cli/pull/2719) Remove Windows note for `source-map-explorer`. ([@hodanny](https://github.com/hodanny))
-* `babel-preset-react-app`
+* `jzkit-babel-preset-react-app`
   * [#2732](https://github.com/facebook/jzkit-cli/pull/2732) Update link to issue blocking JSX hoisting. ([@ForbesLindesay](https://github.com/ForbesLindesay))
 
 #### :house: Internal
-* `jzkit-cli`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `jzkit-cli`, `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
   * [#2923](https://github.com/facebook/jzkit-cli/pull/2923) Update deps. ([@Timer](https://github.com/Timer))
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#2718](https://github.com/facebook/jzkit-cli/pull/2718) Re-enable flowtype warning. ([@oskarkook](https://github.com/oskarkook))
 * Other
   * [#2700](https://github.com/facebook/jzkit-cli/pull/2700) Unstage `yarn.lock` pre-commit. ([@jdcrensh](https://github.com/jdcrensh))
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2873](https://github.com/facebook/jzkit-cli/pull/2873) Use template strings. ([@monkindey](https://github.com/monkindey))
 
 #### Committers: 26
@@ -791,20 +791,20 @@ yarn add --exact react-scripts@1.0.12
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.11
+npm install --save --save-exact jzkit-react-scripts@1.0.11
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.11
+yarn add --exact jzkit-react-scripts@1.0.11
 ```
 
 ## 1.0.10 (June 29, 2017)
 
 #### :bug: Bug Fix
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2692](https://github.com/facebook/jzkit-cli/pull/2692) Fix IE11 crash in development. ([@pdhoopr](https://github.com/pdhoopr))
 
@@ -829,26 +829,26 @@ yarn add --exact react-scripts@1.0.11
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.10
+npm install --save --save-exact jzkit-react-scripts@1.0.10
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.10
+yarn add --exact jzkit-react-scripts@1.0.10
 ```
 
 ## 1.0.9 (June 29, 2017)
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2680](https://github.com/facebook/jzkit-cli/pull/2680) Fix external CSS imports. ([@gaearon](https://github.com/gaearon))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2679](https://github.com/facebook/jzkit-cli/pull/2679) Fix minor typo. ([@dbanck](https://github.com/dbanck))
   * [#2666](https://github.com/facebook/jzkit-cli/pull/2666) Add more info about Apache client side routing. ([@viankakrisna](https://github.com/viankakrisna))
@@ -874,19 +874,19 @@ yarn add --exact react-scripts@1.0.10
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save --save-exact react-scripts@1.0.9
+npm install --save --save-exact jzkit-react-scripts@1.0.9
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@1.0.9
+yarn add --exact jzkit-react-scripts@1.0.9
 ```
 
 ## 1.0.8 (June 28, 2017)
 
 #### :bug: Bug Fix
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2550](https://github.com/facebook/jzkit-cli/pull/2550) Fix Node 8 compatibility. ([@josephfrazier](https://github.com/josephfrazier))
   * [#2610](https://github.com/facebook/jzkit-cli/pull/2610) Fix sourcemap directory organization on Windows. ([@plusCubed](https://github.com/plusCubed))
@@ -895,14 +895,14 @@ yarn add --exact react-scripts@1.0.9
   * [#2432](https://github.com/facebook/jzkit-cli/pull/2432) In new projects, don't register service worker for projects using `PUBLIC_URL` for CDN. ([@jeffposnick](https://github.com/jeffposnick))
   * [#2470](https://github.com/facebook/jzkit-cli/pull/2470) In new projects, prioritize `index.css` over `App.css`. ([@bryankang](https://github.com/bryankang))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2405](https://github.com/facebook/jzkit-cli/pull/2405) Fix detection of parent directory in `ModuleScopePlugin`. ([@diligiant](https://github.com/diligiant))
   * [#2562](https://github.com/facebook/jzkit-cli/pull/2562) Fix eject command output. ([@paweljedrzejczyk](https://github.com/paweljedrzejczyk))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2648](https://github.com/facebook/jzkit-cli/pull/2648) Warn about large bundle sizes. ([@gaearon](https://github.com/gaearon))
   * [#2511](https://github.com/facebook/jzkit-cli/pull/2511) Support `.web.js` extension for React Native Web. ([@mini-eggs](https://github.com/mini-eggs))
@@ -913,16 +913,16 @@ yarn add --exact react-scripts@1.0.9
   * [#2458](https://github.com/facebook/jzkit-cli/pull/2458) Add names to module factories in development. ([@Zaccc123](https://github.com/Zaccc123))
   * [#2551](https://github.com/facebook/jzkit-cli/pull/2551) In new projects, unregister service worker and force reload if `service-worker.js` is not found. ([@ro-savage](https://github.com/ro-savage))
 
-* `babel-preset-react-app`, `react-dev-utils`, `react-scripts`
+* `jzkit-babel-preset-react-app`, `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2658](https://github.com/facebook/jzkit-cli/pull/2658) Bump dependencies. ([@gaearon](https://github.com/gaearon))
 
-* `jzkit-cli`, `react-scripts`
+* `jzkit-cli`, `jzkit-react-scripts`
 
-  * [#2657](https://github.com/facebook/jzkit-cli/pull/2657) Put `react-scripts` in `dependencies`, not `devDependencies`. ([@gaearon](https://github.com/gaearon))
+  * [#2657](https://github.com/facebook/jzkit-cli/pull/2657) Put `jzkit-react-scripts` in `dependencies`, not `devDependencies`. ([@gaearon](https://github.com/gaearon))
   * [#2635](https://github.com/facebook/jzkit-cli/pull/2635) Silence unhelpful npm warnings. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2637](https://github.com/facebook/jzkit-cli/pull/2637) Auto-detect Brackets editor from error overlay. ([@petetnt](https://github.com/petetnt))
   * [#2552](https://github.com/facebook/jzkit-cli/pull/2552) Auto-detect running editor on Windows for error overlay. ([@levrik](https://github.com/levrik))
@@ -979,12 +979,12 @@ yarn add --exact react-scripts@1.0.9
   * [#2388](https://github.com/facebook/jzkit-cli/pull/2388) Fix wrong path expansion in end-to-end test. ([@gaearon](https://github.com/gaearon))
   * [#2387](https://github.com/facebook/jzkit-cli/pull/2387) Catch "No tests found" during CI. ([@EnoahNetzach](https://github.com/EnoahNetzach))
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2408](https://github.com/facebook/jzkit-cli/pull/2408) E2E testing enhancements. ([@EnoahNetzach](https://github.com/EnoahNetzach))
   * [#2430](https://github.com/facebook/jzkit-cli/pull/2430) Remove an unnecessary webpack option. ([@andykenward](https://github.com/andykenward))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2483](https://github.com/facebook/jzkit-cli/pull/2483) Remove a scoped package dependency. ([@Timer](https://github.com/Timer))
 
@@ -1041,20 +1041,20 @@ yarn add --exact react-scripts@1.0.9
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.8
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.8
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.8
+yarn add --dev --exact jzkit-react-scripts@1.0.8
 ```
 
 **If you previously used `HTTPS=true` environment variable in development**, make sure you aren't affected by a now-fixed vulnerability in Webpack by [visiting this page](http://badcert.mike.works/). You can read more about the vulnerability [here](https://medium.com/@mikenorth/webpack-preact-cli-vulnerability-961572624c54).
 
-You may optionally then move `react-scripts` from `devDependencies` to `dependencies` since that’s how we’ll structure newly created projects. It is not necessary though.
+You may optionally then move `jzkit-react-scripts` from `devDependencies` to `dependencies` since that’s how we’ll structure newly created projects. It is not necessary though.
 
-If you left the service worker integration enabled and didn’t change how it works, you can replace `src/registerServiceWorker.js` with [this updated version](https://raw.githubusercontent.com/facebook/jzkit-cli/895c475d3fc218c65dcac9a3ef3f2c0ea746a1ed/packages/react-scripts/template/src/registerServiceWorker.js).
+If you left the service worker integration enabled and didn’t change how it works, you can replace `src/registerServiceWorker.js` with [this updated version](https://raw.githubusercontent.com/facebook/jzkit-cli/895c475d3fc218c65dcac9a3ef3f2c0ea746a1ed/packages/jzkit-react-scripts/template/src/registerServiceWorker.js).
 
 If you haven't changed the default CSS organization, you may want to apply [this fix](https://github.com/facebook/jzkit-cli/pull/2470/files) that makes `index.css` take precedence over `App.css` in your project.
 
@@ -1062,26 +1062,26 @@ If you haven't changed the default CSS organization, you may want to apply [this
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2382](https://github.com/facebook/jzkit-cli/pull/2382) Consistently set environment variables. ([@gaearon](https://github.com/gaearon))
   * [#2379](https://github.com/facebook/jzkit-cli/pull/2379) Temporarily disable `comparisons` feature in uglify compression. ([@davidascher](https://github.com/davidascher))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2383](https://github.com/facebook/jzkit-cli/pull/2383) Update webpack to 2.6.1. ([@gaearon](https://github.com/gaearon))
   * [#2349](https://github.com/facebook/jzkit-cli/pull/2349) Update webpack to v2.6.0. ([@ingro](https://github.com/ingro))
   * [#2351](https://github.com/facebook/jzkit-cli/pull/2351) Removed the overriding of `reduce_vars` since webpack v2.6.0 included fix of Uglify. ([@Zaccc123](https://github.com/Zaccc123))
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2361](https://github.com/facebook/jzkit-cli/pull/2361) Print file sizes with correct build folder path. ([@fezhengjin](https://github.com/fezhengjin))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2372](https://github.com/facebook/jzkit-cli/pull/2372) Update README.md for `now` deployments. ([@purplecones](https://github.com/purplecones))
   * [#2350](https://github.com/facebook/jzkit-cli/pull/2350) Fix broken links. ([@gaearon](https://github.com/gaearon))
@@ -1099,29 +1099,29 @@ If you haven't changed the default CSS organization, you may want to apply [this
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.7
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.7
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.7
+yarn add --dev --exact jzkit-react-scripts@1.0.7
 ```
 
 ## 1.0.6 (May 24, 2017)
 
 #### :bug: Bug Fix
 
-* `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
 
   * [#2346](https://github.com/facebook/jzkit-cli/pull/2346) Resolve Flow errors in an ESLint plugin. ([@iainbeeston](https://github.com/iainbeeston))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2332](https://github.com/facebook/jzkit-cli/pull/2332) Fix proxying issues with backends that don't support IPv6. ([@Timer](https://github.com/Timer))
 
 #### :nail_care: Enhancement
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2347](https://github.com/facebook/jzkit-cli/pull/2347) Don't precache `/__*` URLs to fix Firebase hosting. ([@ryansully](https://github.com/ryansully))
 
@@ -1142,33 +1142,33 @@ yarn add --dev --exact react-scripts@1.0.7
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.6
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.6
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.6
+yarn add --dev --exact jzkit-react-scripts@1.0.6
 ```
 
 ## 1.0.5 (May 22, 2017)
 
 #### :bug: Bug Fix
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2326](https://github.com/facebook/jzkit-cli/pull/2326) Files in `public/` folder should not be requested through proxy. ([@gaearon](https://github.com/gaearon))
 
 #### :nail_care: Enhancement
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2327](https://github.com/facebook/jzkit-cli/pull/2327) Limit console warnings to 5 files at most. ([@gaearon](https://github.com/gaearon))
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
 
   * [#2325](https://github.com/facebook/jzkit-cli/pull/2325) Allow declaring variables before use in a scope above. ([@gaearon](https://github.com/gaearon))
 
 #### :house: Internal
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2320](https://github.com/facebook/jzkit-cli/pull/2320) Remove unnecessary dependencies. ([@pmadar](https://github.com/pmadar))
 
@@ -1181,20 +1181,20 @@ yarn add --dev --exact react-scripts@1.0.6
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.5
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.5
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.5
+yarn add --dev --exact jzkit-react-scripts@1.0.5
 ```
 
 ## 1.0.4 (May 22, 2017)
 
 #### :bug: Bug Fix
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
   * Fix a regression in published package.
 
 ### Migrating from 1.0.3 to 1.0.4
@@ -1202,29 +1202,29 @@ yarn add --dev --exact react-scripts@1.0.5
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.4
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.4
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.4
+yarn add --dev --exact jzkit-react-scripts@1.0.4
 ```
 
 ## 1.0.3 (May 21, 2017)
 
 #### :bug: Bug Fix
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2297](https://github.com/facebook/jzkit-cli/pull/2297) Don’t serve the development version from public IPs by default. ([@Timer](https://github.com/Timer))
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#2311](https://github.com/facebook/jzkit-cli/pull/2311) Disable `flowtype/require-valid-file-annotation` lint rule due to false positives. ([@Robdel12](https://github.com/Robdel12))
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
   * [#2301](https://github.com/facebook/jzkit-cli/pull/2301) Wrap more `console` calls into a check. ([@BrodaNoel](https://github.com/BrodaNoel))
 
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2314](https://github.com/facebook/jzkit-cli/pull/2314) Fix a "File not found" false positive. ([@gaearon](https://github.com/gaearon))
 
 #### Committers: 4
@@ -1238,42 +1238,42 @@ yarn add --dev --exact react-scripts@1.0.4
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.3
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.3
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.3
+yarn add --dev --exact jzkit-react-scripts@1.0.3
 ```
 
 ## 1.0.2 (May 20, 2017)
 
 #### :bug: Bug Fix
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2276](https://github.com/facebook/jzkit-cli/pull/2276) Serve a no-op service worker in development to ensure it doesn't cache the production build even if it was served on the same port. ([@jeffposnick](https://github.com/jeffposnick))
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
 
   * [#2290](https://github.com/facebook/jzkit-cli/pull/2290) Wrap console calls into a check for IE9. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
 
   * [#2282](https://github.com/facebook/jzkit-cli/pull/2282) Add Windows Subsystem for Linux support to the error overlay. ([@noinkling](https://github.com/noinkling))
   * [#2269](https://github.com/facebook/jzkit-cli/pull/2269) Fix a missing package dependency. ([@GreenGremlin](https://github.com/GreenGremlin))
 
 #### :nail_care: Enhancement
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2221](https://github.com/facebook/jzkit-cli/pull/2221) Ejecting should ensure you have clean `git status`. ([@milocosmopolitan](https://github.com/milocosmopolitan))
   * [#2288](https://github.com/facebook/jzkit-cli/pull/2288) Only enable host check if you use proxy, and add a way to opt out of it. ([@gaearon](https://github.com/gaearon))
 
 #### :house: Internal
 
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
 
   * [#2283](https://github.com/facebook/jzkit-cli/pull/2283) Remove unnecessary dependencies(#751). ([@pmadar](https://github.com/pmadar))
 
@@ -1290,22 +1290,22 @@ yarn add --dev --exact react-scripts@1.0.3
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.2
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.2
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.2
+yarn add --dev --exact jzkit-react-scripts@1.0.2
 ```
 
-If you previously had issues with an `Invalid Host Header` error, [follow these new instructions](https://github.com/facebook/jzkit-cli/blob/master/packages/react-scripts/template/README.md#invalid-host-header-errors-after-configuring-proxy) to fix it.
+If you previously had issues with an `Invalid Host Header` error, [follow these new instructions](https://github.com/facebook/jzkit-cli/blob/master/packages/jzkit-react-scripts/template/README.md#invalid-host-header-errors-after-configuring-proxy) to fix it.
 
 ## 1.0.1 (May 19, 2017)
 
 #### :bug: Bug Fix
 
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2242](https://github.com/facebook/jzkit-cli/pull/2242) Fix `NODE_PATH=src` for `npm start` and `npm run build`. ([@ApacheEx](https://github.com/ApacheEx))
   * [#2261](https://github.com/facebook/jzkit-cli/pull/2261) Fix `NODE_PATH=src` for Jest. ([@gaearon](https://github.com/gaearon))
   * [#2255](https://github.com/facebook/jzkit-cli/pull/2255) Fix Windows path issue for generated service worker. ([@gaearon](https://github.com/gaearon))
@@ -1313,26 +1313,26 @@ If you previously had issues with an `Invalid Host Header` error, [follow these 
   * [#2250](https://github.com/facebook/jzkit-cli/pull/2250) Ignore `.env.local` in `test` environment. ([@gaearon](https://github.com/gaearon))
   * [#2246](https://github.com/facebook/jzkit-cli/pull/2246) Gracefully shut down the development server on signals. ([@gaearon](https://github.com/gaearon))
 
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2229](https://github.com/facebook/jzkit-cli/pull/2229) Show customized build path for serve instruction. ([@chyipin](https://github.com/chyipin))
 
-* `react-dev-utils`, `react-error-overlay`
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
   * [#2243](https://github.com/facebook/jzkit-cli/pull/2243) Add missing package dependency. ([@Timer](https://github.com/Timer))
 
-* `react-error-overlay`
+* `jzkit-react-error-overlay`
   * [#2238](https://github.com/facebook/jzkit-cli/pull/2238) Fix a crash when switching errors with arrow keys. ([@Gandem](https://github.com/Gandem))
 
 #### :nail_care: Enhancement
 
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#2256](https://github.com/facebook/jzkit-cli/pull/2256) Turn off `operator-assignment` stylistic rule. ([@gaearon](https://github.com/gaearon))
 
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2224](https://github.com/facebook/jzkit-cli/pull/2224) Add `<noscript>` to template's `index.html`. ([@viankakrisna](https://github.com/viankakrisna))
 
 #### :memo: Documentation
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2259](https://github.com/facebook/jzkit-cli/pull/2259) Fix broken links. ([@enguerran](https://github.com/enguerran))
   * [#2258](https://github.com/facebook/jzkit-cli/pull/2258) Update readme with example of Sass include path. ([@kellyrmilligan](https://github.com/kellyrmilligan))
@@ -1341,7 +1341,7 @@ If you previously had issues with an `Invalid Host Header` error, [follow these 
 
 #### :house: Internal
 
-* `react-scripts`
+* `jzkit-react-scripts`
 
   * [#2264](https://github.com/facebook/jzkit-cli/pull/2264) Fix a bug for empty `NODE_PATH`. ([@gaearon](https://github.com/gaearon))
 
@@ -1362,13 +1362,13 @@ If you previously had issues with an `Invalid Host Header` error, [follow these 
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.1
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.1
 ```
 
 or
 
 ```
-yarn add --dev --exact react-scripts@1.0.1
+yarn add --dev --exact jzkit-react-scripts@1.0.1
 ```
 
 ## 1.0.0 (May 18, 2017)
@@ -1387,7 +1387,7 @@ First, ensure you are using the latest [Node 6 LTS or newer](https://nodejs.org/
 Inside any created project that has not been ejected, run:
 
 ```
-npm install --save-dev --save-exact react-scripts@1.0.0
+npm install --save-dev --save-exact jzkit-react-scripts@1.0.0
 ```
 
 You may also optionally update the global command-line utility for bug fixes:
@@ -1499,7 +1499,7 @@ If you still have the problem please file an issue.
 
 Unhandled Promise rejections will now crash tests. You can fix them by explicitly catching the errors you don’t care about.
 
-#### How to turn my app into a [Progressive Web App](https://github.com/facebook/jzkit-cli/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app)?
+#### How to turn my app into a [Progressive Web App](https://github.com/facebook/jzkit-cli/blob/master/packages/jzkit-react-scripts/template/README.md#making-a-progressive-web-app)?
 
 After the regular update procedure above, add these line to `<head>` in `public/index.html`:
 
@@ -1540,7 +1540,7 @@ Then create a file called `public/manifest.json` that looks like this:
 }
 ```
 
-Finally, create `src/registerServiceWorker.js` with [this template](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/registerServiceWorker.js), [import it](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L4) from `src/index.js` and [call the function it exports](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L8).
+Finally, create `src/registerServiceWorker.js` with [this template](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/jzkit-react-scripts/template/src/registerServiceWorker.js), [import it](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/jzkit-react-scripts/template/src/index.js#L4) from `src/index.js` and [call the function it exports](https://github.com/facebook/jzkit-cli/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/jzkit-react-scripts/template/src/index.js#L8).
 
 #### Anything missing?
 
@@ -1553,41 +1553,41 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
 **For a readable summary of the changes, [check out our blog post](https://facebook.github.io/react/blog/2017/05/18/whats-new-in-jzkit-cli.html).**
 
 #### :boom: Breaking Change
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#2189](https://github.com/facebook/jzkit-cli/pull/2189) Add `ModuleScopePlugin` to ensure files reside in `src/`. ([@Timer](https://github.com/Timer))
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2187](https://github.com/facebook/jzkit-cli/pull/2187) Ignore Moment.js locales by default. ([@gaearon](https://github.com/gaearon))
   * [#1808](https://github.com/facebook/jzkit-cli/pull/1808) Only run tests in `src/` (#544). ([@motevets](https://github.com/motevets))
   * [#1771](https://github.com/facebook/jzkit-cli/pull/1771) Some flexbox bugs are autofixed, and support for 2009 spec is dropped. ([@cr101](https://github.com/cr101))
   * [#1614](https://github.com/facebook/jzkit-cli/pull/1614) Upgrade to Jest ~~19~~ (now 20). ([@rogeliog](https://github.com/rogeliog))
   * [#1305](https://github.com/facebook/jzkit-cli/pull/1305) Whitelist files that can be embedded through url-loader. ([@pugnascotia](https://github.com/pugnascotia))
-* `eslint-config-react-app`, `react-dev-utils`
+* `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`
   * [#2186](https://github.com/facebook/jzkit-cli/pull/2186) Tweak lint rules. ([@gaearon](https://github.com/gaearon))
-* `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
   * [#2163](https://github.com/facebook/jzkit-cli/pull/2163) Upgrade `eslint-plugin-jsx-a11y` and activate more rules. ([@AlmeroSteyn](https://github.com/AlmeroSteyn))
-* `eslint-config-react-app`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-scripts`
   * [#2130](https://github.com/facebook/jzkit-cli/pull/2130) Confusing global variables are now blacklisted. ([@doshisid](https://github.com/doshisid))
 
 
 #### :rocket: New Feature
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#1728](https://github.com/facebook/jzkit-cli/pull/1728) Scaffolded applications are now Progressive Web Apps by default. ([@jeffposnick](https://github.com/jeffposnick))
   * [#1344](https://github.com/facebook/jzkit-cli/pull/1344) Support multiple env configuration files. ([@tuchk4](https://github.com/tuchk4))
   * [#2168](https://github.com/facebook/jzkit-cli/pull/2168) Enable CSS sourcemaps in production. ([@gaearon](https://github.com/gaearon))
   * [#1830](https://github.com/facebook/jzkit-cli/pull/1830) Make subset of Jest options overridable. ([@ryansully](https://github.com/ryansully))
-* `react-dev-utils`, `react-scripts`
-  * [#1101](https://github.com/facebook/jzkit-cli/pull/1101) Add `react-error-overlay`, our new crash overlay. ([@Timer](https://github.com/Timer))
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
+  * [#1101](https://github.com/facebook/jzkit-cli/pull/1101) Add `jzkit-react-error-overlay`, our new crash overlay. ([@Timer](https://github.com/Timer))
   * [#1590](https://github.com/facebook/jzkit-cli/pull/1590) Support specifying a node script as BROWSER environment variable. ([@GAumala](https://github.com/GAumala))
   * [#1790](https://github.com/facebook/jzkit-cli/pull/1790) Support multiple proxies in development. ([@jamesblight](https://github.com/jamesblight))
-* `eslint-config-react-app`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-scripts`
   * [#2163](https://github.com/facebook/jzkit-cli/pull/2163) Upgrade `eslint-plugin-jsx-a11y` and activate more rules. ([@AlmeroSteyn](https://github.com/AlmeroSteyn))
 
 
 #### :bug: Bug Fix
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2219](https://github.com/facebook/jzkit-cli/pull/2219) Improve interaction between compile and runtime overlays ([@gaearon](https://github.com/gaearon))
   * [#2200](https://github.com/facebook/jzkit-cli/pull/2200) Disable Uglify reduce_vars. ([@gaearon](https://github.com/gaearon))
-  * [#2166](https://github.com/facebook/jzkit-cli/pull/2166) Support hoisting `react-scripts` and add `require.resolve()` to loaders. ([@gaearon](https://github.com/gaearon))
+  * [#2166](https://github.com/facebook/jzkit-cli/pull/2166) Support hoisting `jzkit-react-scripts` and add `require.resolve()` to loaders. ([@gaearon](https://github.com/gaearon))
   * [#2115](https://github.com/facebook/jzkit-cli/pull/2115) Do not respect `.eslintignore`. ([@Timer](https://github.com/Timer))
   * [#2063](https://github.com/facebook/jzkit-cli/pull/2063) Ignore yarn cache directory when searching for tests. ([@jmorrell](https://github.com/jmorrell))
   * [#2050](https://github.com/facebook/jzkit-cli/pull/2050) Name development chunk names. ([@herrstucki](https://github.com/herrstucki))
@@ -1600,7 +1600,7 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1819](https://github.com/facebook/jzkit-cli/pull/1819) Makes end-to-end testing crash on unhandled rejections. ([@dbismut](https://github.com/dbismut))
   * [#1810](https://github.com/facebook/jzkit-cli/pull/1810) Fixes a silent crash when ejecting. ([@gaearon](https://github.com/gaearon))
   * [#1727](https://github.com/facebook/jzkit-cli/pull/1727) Fix ejecting from a scoped fork. ([@gaearon](https://github.com/gaearon))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2076](https://github.com/facebook/jzkit-cli/pull/2076) `openBrowser` now supports urls with more than one parameter. ([@alisonmonteiro](https://github.com/alisonmonteiro))
   * [#1690](https://github.com/facebook/jzkit-cli/pull/1690) Fix `openBrowser()` when `BROWSER=open` on macOS. ([@bpierre](https://github.com/bpierre))
   * [#1696](https://github.com/facebook/jzkit-cli/pull/1696) Fix an edge-case for people with the username `cwd`. ([@chrisdrackett](https://github.com/chrisdrackett))
@@ -1614,14 +1614,14 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1669](https://github.com/facebook/jzkit-cli/pull/1669) Fix react dependency versions during initial install. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
 
 #### :nail_care: Enhancement
-* `react-dev-utils`, `react-scripts`
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#2202](https://github.com/facebook/jzkit-cli/pull/2202) Refactor and improve build output. ([@gaearon](https://github.com/gaearon))
   * [#2152](https://github.com/facebook/jzkit-cli/pull/2152) Tweak error and warning output. ([@gaearon](https://github.com/gaearon))
   * [#1772](https://github.com/facebook/jzkit-cli/pull/1772) Replace prompt function Inquirer.js. (#1767). ([@iansu](https://github.com/iansu))
-  * [#1726](https://github.com/facebook/jzkit-cli/pull/1726) Extract generic build functions to react-dev-utils. ([@viankakrisna](https://github.com/viankakrisna))
-* `react-dev-utils`, `react-error-overlay`
+  * [#1726](https://github.com/facebook/jzkit-cli/pull/1726) Extract generic build functions to jzkit-react-dev-utils. ([@viankakrisna](https://github.com/viankakrisna))
+* `jzkit-react-dev-utils`, `jzkit-react-error-overlay`
   * [#2201](https://github.com/facebook/jzkit-cli/pull/2201) Tweak error overlay styles. ([@bvaughn](https://github.com/bvaughn))
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2187](https://github.com/facebook/jzkit-cli/pull/2187) Ignore Moment.js locales by default. ([@gaearon](https://github.com/gaearon))
   * [#1771](https://github.com/facebook/jzkit-cli/pull/1771) Adding plugin postcss-flexbugs-fixes and flexbox: 'no-2009' to Autoprefixer. ([@cr101](https://github.com/cr101))
   * [#1614](https://github.com/facebook/jzkit-cli/pull/1614) Upgrade to Jest ~~19~~ (now 20). ([@rogeliog](https://github.com/rogeliog))
@@ -1631,22 +1631,22 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1747](https://github.com/facebook/jzkit-cli/pull/1747) Display `yarn` instead of `yarnpkg` when creating a new application. ([@lpalmes](https://github.com/lpalmes))
   * [#1433](https://github.com/facebook/jzkit-cli/pull/1433) Modularise scripts. ([@djgrant](https://github.com/djgrant))
   * [#1677](https://github.com/facebook/jzkit-cli/pull/1677) Add `X-FORWARDED` headers for proxy requests. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
-* `eslint-config-react-app`, `react-dev-utils`
+* `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`
   * [#2186](https://github.com/facebook/jzkit-cli/pull/2186) Tweak lint rules. ([@gaearon](https://github.com/gaearon))
-* `react-error-overlay`, `react-scripts`
+* `jzkit-react-error-overlay`, `jzkit-react-scripts`
   * [#2171](https://github.com/facebook/jzkit-cli/pull/2171) Use Jest 20. ([@gaearon](https://github.com/gaearon))
-* `babel-preset-react-app`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `jzkit-babel-preset-react-app`, `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`, `jzkit-react-error-overlay`, `jzkit-react-scripts`
   * [#2170](https://github.com/facebook/jzkit-cli/pull/2170) Bump dependencies. ([@gaearon](https://github.com/gaearon))
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#2064](https://github.com/facebook/jzkit-cli/pull/2064) Removing a stylistic lint rule. ([@anilreddykatta](https://github.com/anilreddykatta))
   * [#1763](https://github.com/facebook/jzkit-cli/pull/1763) disable ignoring unused vars prefixed with _. ([@doshisid](https://github.com/doshisid))
   * [#1989](https://github.com/facebook/jzkit-cli/pull/1989) Relax label rules (Closes [#1835](https://github.com/facebook/jzkit-cli/issues/1835)). ([@anilreddykatta](https://github.com/anilreddykatta))
   * [#1773](https://github.com/facebook/jzkit-cli/pull/1773) Remove 'guard-for-in' lint rule. ([@spicyj](https://github.com/spicyj))
-* `eslint-config-react-app`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-scripts`
   * [#2130](https://github.com/facebook/jzkit-cli/pull/2130) Blacklist confusing global variables. ([@doshisid](https://github.com/doshisid))
   * [#1542](https://github.com/facebook/jzkit-cli/pull/1542) Bump jsx-a11y version. ([@bondz](https://github.com/bondz))
   * [#1705](https://github.com/facebook/jzkit-cli/pull/1705) Add support for `ignoreRestSiblings` in `no-unused-vars`. ([@chrisdrackett](https://github.com/chrisdrackett))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#2125](https://github.com/facebook/jzkit-cli/pull/2125) Only show the first compilation error. ([@gaearon](https://github.com/gaearon))
   * [#2120](https://github.com/facebook/jzkit-cli/pull/2120) Omit ESLint warnings when there are ESLint errors. ([@gaearon](https://github.com/gaearon))
   * [#2113](https://github.com/facebook/jzkit-cli/pull/2113) Prettify errors and warnings for Webpack 2. ([@gaearon](https://github.com/gaearon))
@@ -1657,7 +1657,7 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1402](https://github.com/facebook/jzkit-cli/pull/1402) Create empty package.json in e2e test (#1401). ([@matoilic](https://github.com/matoilic))
 
 #### :memo: Documentation
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2193](https://github.com/facebook/jzkit-cli/pull/2193) Fix webpack config typo. ([@Justkant](https://github.com/Justkant))
   * [#2137](https://github.com/facebook/jzkit-cli/pull/2137) Remove live-editing since isn't accurate. ([@cesarvarela](https://github.com/cesarvarela))
   * [#2114](https://github.com/facebook/jzkit-cli/pull/2114) Update Sass README. ([@kellyrmilligan](https://github.com/kellyrmilligan))
@@ -1683,26 +1683,26 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1991](https://github.com/facebook/jzkit-cli/pull/1991) Add folder structure docs for new contributors. ([@anilreddykatta](https://github.com/anilreddykatta))
   * [#1962](https://github.com/facebook/jzkit-cli/pull/1962) Add sku to the list of alternatives. ([@markdalgleish](https://github.com/markdalgleish))
   * [#1799](https://github.com/facebook/jzkit-cli/pull/1799) Improve phrasing. ([@moniuch](https://github.com/moniuch))
-* `babel-preset-react-app`
+* `jzkit-babel-preset-react-app`
   * [#1787](https://github.com/facebook/jzkit-cli/pull/1787) Update side-effect documentation. ([@evenchange4](https://github.com/evenchange4))
 
 #### :house: Internal
-* `react-scripts`
+* `jzkit-react-scripts`
   * [#2213](https://github.com/facebook/jzkit-cli/pull/2213) Use some ES6 syntax. ([@shashkovdanil](https://github.com/shashkovdanil))
   * [#1913](https://github.com/facebook/jzkit-cli/pull/1913) Add linked modules test. ([@Timer](https://github.com/Timer))
-  * [#1736](https://github.com/facebook/jzkit-cli/pull/1736) Fix eject for linked react-scripts. ([@tuchk4](https://github.com/tuchk4))
+  * [#1736](https://github.com/facebook/jzkit-cli/pull/1736) Fix eject for linked jzkit-react-scripts. ([@tuchk4](https://github.com/tuchk4))
   * [#1741](https://github.com/facebook/jzkit-cli/pull/1741) Fix internal linting setup. ([@gaearon](https://github.com/gaearon))
   * [#1730](https://github.com/facebook/jzkit-cli/pull/1730) Fix Node 4 e2e tests. ([@Timer](https://github.com/Timer))
   * [#1715](https://github.com/facebook/jzkit-cli/pull/1715) Remove unused `url` import in Webpack config. ([@pd4d10](https://github.com/pd4d10))
   * [#1700](https://github.com/facebook/jzkit-cli/pull/1700) Update extract-text-webpack-plugin to stable. ([@SimenB](https://github.com/SimenB))
-* `react-dev-utils`, `react-scripts`
-  * [#2209](https://github.com/facebook/jzkit-cli/pull/2209) Move more logic from react-scripts to react-dev-utils. ([@gaearon](https://github.com/gaearon))
+* `jzkit-react-dev-utils`, `jzkit-react-scripts`
+  * [#2209](https://github.com/facebook/jzkit-cli/pull/2209) Move more logic from jzkit-react-scripts to jzkit-react-dev-utils. ([@gaearon](https://github.com/gaearon))
   * [#2138](https://github.com/facebook/jzkit-cli/pull/2138) Add custom eslint formatter. ([@doshisid](https://github.com/doshisid))
-* `babel-preset-react-app`, `react-scripts`
-  * [#2175](https://github.com/facebook/jzkit-cli/pull/2175) Resolve regenerator runtime relative to react-scripts. ([@gaearon](https://github.com/gaearon))
+* `jzkit-babel-preset-react-app`, `jzkit-react-scripts`
+  * [#2175](https://github.com/facebook/jzkit-cli/pull/2175) Resolve regenerator runtime relative to jzkit-react-scripts. ([@gaearon](https://github.com/gaearon))
   * [#1894](https://github.com/facebook/jzkit-cli/pull/1894) Re-disable babel modules transform. ([@Timer](https://github.com/Timer))
   * [#1742](https://github.com/facebook/jzkit-cli/pull/1742) Switch to preset-env. ([@Timer](https://github.com/Timer))
-* `jzkit-cli`, `react-dev-utils`, `react-scripts`
+* `jzkit-cli`, `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#1897](https://github.com/facebook/jzkit-cli/pull/1897) Bump minimal Node version to 6. ([@ianschmitz](https://github.com/ianschmitz))
 * Other
   * [#1868](https://github.com/facebook/jzkit-cli/pull/1868) Fix AppVeyor CI. ([@darrenscerri](https://github.com/darrenscerri))
@@ -1712,13 +1712,13 @@ Please [file an issue](https://github.com/facebook/jzkit-cli/issues/new) and we 
   * [#1707](https://github.com/facebook/jzkit-cli/pull/1707) Add double quotes to escape spaces in paths in e2e. ([@viankakrisna](https://github.com/viankakrisna))
   * [#1688](https://github.com/facebook/jzkit-cli/pull/1688) Pin and upgrade lerna version. ([@viankakrisna](https://github.com/viankakrisna))
   * [#1648](https://github.com/facebook/jzkit-cli/pull/1648) Add `appveyor.yml`. ([@Timer](https://github.com/Timer))
-* `babel-preset-react-app`, `jzkit-cli`, `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
+* `jzkit-babel-preset-react-app`, `jzkit-cli`, `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#1738](https://github.com/facebook/jzkit-cli/pull/1738) Update to modern code style (ES6). ([@tuchk4](https://github.com/tuchk4))
-* `eslint-config-react-app`
+* `jzkit-eslint-config-react-app`
   * [#1740](https://github.com/facebook/jzkit-cli/pull/1740) Relax ESLint config peerDependency. ([@gaearon](https://github.com/gaearon))
-* `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
+* `jzkit-eslint-config-react-app`, `jzkit-react-dev-utils`, `jzkit-react-scripts`
   * [#1729](https://github.com/facebook/jzkit-cli/pull/1729) Lint internal scripts with eslint:recommended. ([@gaearon](https://github.com/gaearon))
-* `react-dev-utils`
+* `jzkit-react-dev-utils`
   * [#1724](https://github.com/facebook/jzkit-cli/pull/1724) Don't use ES6 in a file that should run on Node 4. ([@gaearon](https://github.com/gaearon))
 
 #### Committers: 66

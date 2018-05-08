@@ -20,7 +20,7 @@ environment:
       test_suite: "monorepos"
 cache:
   - node_modules -> appveyor.cleanup-cache.txt
-  - packages\react-scripts\node_modules -> appveyor.cleanup-cache.txt
+  - packages\jzkit-react-scripts\node_modules -> appveyor.cleanup-cache.txt
 
 clone_depth: 50
 

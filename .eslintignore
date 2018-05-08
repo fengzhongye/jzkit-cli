@@ -1,5 +1,5 @@
 node_modules/
 build
 my-app*
-packages/react-scripts/template
-packages/react-scripts/fixtures
+packages/jz-jzkit-react-scripts/template
+packages/jz-jzkit-react-scripts/fixtures
