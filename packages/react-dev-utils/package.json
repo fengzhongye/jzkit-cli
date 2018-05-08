@@ -1,6 +1,6 @@
 {
   "name": "react-dev-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Webpack utilities used by Create React App",
   "repository": "fengzhongye/jzkit-cli",
   "license": "MIT",
