@@ -1,6 +1,6 @@
 {
   "name": "jzkit-eslint-config-react-app",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "ESLint configuration used by Create React App",
   "repository": "fengzhongye/jzkit-cli",
   "license": "MIT",
@@ -19,6 +19,6 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "dependencies": {
-    "jzkit-confusing-browser-globals": "^1.0.0"
+    "jzkit-confusing-browser-globals": "^1.0.1"
   }
 }
